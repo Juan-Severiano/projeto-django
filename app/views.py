@@ -4,6 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return render (request, 'app/index.html' , context={
+    return render (request, 'app/pages/index.html' , context={
         'name':'Juan Severiano'
     })
